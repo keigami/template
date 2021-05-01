@@ -18,3 +18,54 @@ html {
     padding: 0 20px 20px 20px;
     border: 5px solid black;
   }
+
+  /*ID指定*/
+  #keymessage {
+    color : yellow;
+  }
+  #hst{
+    color : gray;
+  }
+  /*class指定*/
+  .kstandard {
+    background-color: pink;
+  }
+
+  /*階層指定*/
+  div p {
+    font-size : 29px;
+    text-align: center ;
+    width: 10em;
+    height:10em;
+  }
+
+
+  .bordersolid {
+    border: solid 2px gray;
+  }
+  .borderdotted {
+    border: dotted 2px gray;
+  }
+  .borderdashed {
+    border: dashed 2px gray;
+  }
+  .borderdouble {
+    border: double 5px gray;
+  }
+  .borderpx1 {
+    border: solid 10px green;
+  }
+
+
+/*
+TODO
+「display」レイアウトを決める
+「flex」レイアウトを決める②
+「position」配置を自由自在にする
+「::before、::after」表現力を増やす疑似クラス
+「transform」動きや変化を加える
+margine/padding
+width/height
+border
+
+*/

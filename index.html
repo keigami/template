@@ -1,17 +1,34 @@
+<!DOCTYPE html>
 <html>
-
+<!-- Keigami's HTML Template -->
 <head>
     <meta charset="utf-8">
     <link href="styles/style.css" rel="stylesheet" types="text/css">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 
     <title>Keigami's HTML Temlate</title>
+    <style>
+        span {
+            color : green;
+        }
+    </style>
 </head>
 
 <body>
     <h1>This is my template</h1>
     <img src='images/keigami.png' alt="This is my pict.">
-    <p>This is hoge.</p>
+    <p id="keymessage">This is hoge.</p>
+    <p class="kstandard">IDはHTML文章内で1つだけ</p>
+    <p class="kstandard">ClassはHTML文章内で何度でも使える</p>
+    <div><p class="kstandard">Divは改行される</p></div>
+    <span>spanは改行されない 文章の途中で使えば良い Divはブロックに使うイメージ</span>
+    <span id="hst">本日は晴天なり</span><br>
+
+    <p class="bordersolid">borderのテスト</p>
+    <p class="borderdotted">borderのテスト</p>   
+    <p class="borderdashed">borderのテスト</p>
+    <p class="borderdouble">borderのテスト</p>
+    <p class="borderpx1">borderのテスト</p>
 
     <script src="scripts/main.js"></script>
 </body>

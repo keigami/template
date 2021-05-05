@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <!-- Keigami's HTML Template -->
+
 <head>
     <meta charset="utf-8">
     <link href="styles/style.css" rel="stylesheet" types="text/css">
@@ -9,7 +10,7 @@
     <title>Keigami's HTML Temlate</title>
     <style>
         span {
-            color : green;
+            color: green;
         }
     </style>
 </head>
@@ -19,16 +20,35 @@
     <img src='images/keigami.png' alt="This is my pict.">
     <p id="keymessage">This is hoge.</p>
     <p class="kstandard">IDはHTML文章内で1つだけ</p>
-    <p class="kstandard">ClassはHTML文章内で何度でも使える</p>
-    <div><p class="kstandard">Divは改行される</p></div>
+    <p class="kstandard" style="color:red">ClassはHTML文章内で何度でも使える</p>
+    <div>
+        <p class="kstandard">Divは改行される</p>
+        <p class="kstandard">Divはブロック要素、Spanはインライン要素</p>
+    </div>
     <span>spanは改行されない 文章の途中で使えば良い Divはブロックに使うイメージ</span>
     <span id="hst">本日は晴天なり</span><br>
 
     <p class="bordersolid">borderのテスト</p>
-    <p class="borderdotted">borderのテスト</p>   
+    <p class="borderdotted">borderのテスト</p>
     <p class="borderdashed">borderのテスト</p>
     <p class="borderdouble">borderのテスト</p>
     <p class="borderpx1">borderのテスト</p>
+
+    <ul>
+        <li>li</li>
+        <li>li</li>
+        <li>li</li>
+        <li>li</li>
+    </ul>
+    <ol>
+        <li>li</li>
+        <li>li</li>
+        <li>li</li>
+        <li>li</li>
+    </ol>
+
+    <p id="padmargin">padding, marginのテスト</p>
+    <p id="leftbar">シャレオツバー見出し&下線</p>
 
     <script src="scripts/main.js"></script>
 </body>

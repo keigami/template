@@ -35,10 +35,26 @@ html {
   div p {
     font-size : 29px;
     text-align: center ;
-    width: 10em;
-    height:10em;
+    width: 5em;
+    height:5em;
+    text-decoration:underline;
   }
 
+  /*同列指定*/
+  span, li{
+    color : lightgreen;
+    font-weight:bold;
+    font-style:italic;
+    line-height:1.5;
+  }
+
+  #padmargin{
+    background-color: aqua;
+    margin: 50px;
+    padding: 30px;
+    text-decoration:line-through;
+
+  }
 
   .bordersolid {
     border: solid 2px gray;
@@ -56,6 +72,11 @@ html {
     border: solid 10px green;
   }
 
+  #leftbar{
+    border-left :solid 5px blue;
+    border-bottom: solid 1px gray;
+    padding:10px;
+  }
 
 /*
 TODO

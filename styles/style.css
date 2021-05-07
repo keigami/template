@@ -20,12 +20,31 @@ html {
   }
 
   /*ID指定*/
+  #ktop{
+    position:fixed;
+  }
   #keymessage {
     color : yellow;
   }
   #hst{
     color : gray;
   }
+  #pimg {
+    position:relative;
+    top:0px;
+    left:0px;
+  }
+  #childpimg{
+    position:absolute;
+    /*top:0px;
+    left:0px;*/
+    bottom:0px;
+    right:0px;
+    background-color: lightblue;
+    border:1px solid;
+  }
+
+
   /*class指定*/
   .kstandard {
     background-color: pink;
@@ -78,6 +97,23 @@ html {
     padding:10px;
   }
 
+  a {
+    color:greenyellow;
+    font-weight:bold;
+  }
+  a:hover {
+    background-color:black;
+  }
+  a:visited {
+    color : pink;
+    background-color:white;
+  }
+
+  ol{
+    border : 2px dashed;
+    background-color:silver;
+
+  }
 /*
 TODO
 「display」レイアウトを決める

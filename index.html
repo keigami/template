@@ -5,6 +5,7 @@
 <head>
     <meta charset="utf-8">
     <link href="styles/style.css" rel="stylesheet" types="text/css">
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 
     <title>Keigami's HTML Temlate</title>
@@ -16,8 +17,11 @@
 </head>
 
 <body>
-    <h1>This is my template</h1>
-    <img src='images/keigami.png' alt="This is my pict.">
+    <h1 id="ktop">This is my template</h1>
+    <div id="pimg">
+        <img src='images/keigami.png' alt="This is my pict.">
+        <span id="childpimg">自画像</span>
+    </div>
     <p id="keymessage">This is hoge.</p>
     <p class="kstandard">IDはHTML文章内で1つだけ</p>
     <p class="kstandard" style="color:red">ClassはHTML文章内で何度でも使える</p>
@@ -49,6 +53,12 @@
 
     <p id="padmargin">padding, marginのテスト</p>
     <p id="leftbar">シャレオツバー見出し&下線</p>
+
+    <p><a href="https://www.yahoo.co.jp/">これが普通のリンク</a></p>
+    <p><a href="https://www.yahoo.co.jp/" target="__blank">これが別窓リンク</a></p>
+
+    <p><a href="#ktop" class="fab fa-bluetooth">このページのトップへ戻る</a><p>
+    <i class="fab fa-bluetooth"></i>
 
     <script src="scripts/main.js"></script>
 </body>

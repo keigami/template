@@ -4,9 +4,12 @@
 
 <head>
     <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet">
     <link href="styles/style.css" rel="stylesheet" types="text/css">
-    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <!-- <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet"> -->
+    <!-- <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'> -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
 
     <title>Keigami's HTML Temlate</title>
     <style>
@@ -22,6 +25,29 @@
         <img src='images/keigami.png' alt="This is my pict.">
         <span id="childpimg">自画像</span>
     </div>
+
+    <table>
+        <tr>
+            <th>hoge</th>
+            <th>hoge</th>
+            <th>hoge</th>
+            <th>hoge</th>
+        </tr>
+        <tr>
+            <td>fuga</td>
+            <td rowspan="2">fuga</td>
+            <td>fuga</td>
+            <td>fuga</td>
+        </tr>
+        <tr>
+            <td>awaawa</td>
+            <!-- <td>awaawa</td> -->
+            <td colspan="2">awaawa</td>
+            <!-- <td>awaawa</td> -->
+        </tr>
+    </table>
+
+
     <p id="keymessage">This is hoge.</p>
     <p class="kstandard">IDはHTML文章内で1つだけ</p>
     <p class="kstandard" style="color:red">ClassはHTML文章内で何度でも使える</p>
@@ -57,10 +83,11 @@
     <p><a href="https://www.yahoo.co.jp/">これが普通のリンク</a></p>
     <p><a href="https://www.yahoo.co.jp/" target="__blank">これが別窓リンク</a></p>
 
-    <p><a href="#ktop" class="fab fa-bluetooth">このページのトップへ戻る</a><p>
-    <i class="fab fa-bluetooth"></i>
+    <p><a href="#ktop" class="fab fa-bluetooth">このページのトップへ戻る</a>
+    <p>
+        <i class="fab fa-bluetooth"></i>
 
-    <script src="scripts/main.js"></script>
+        <script src="scripts/main.js"></script>
 </body>
 
 </html>
